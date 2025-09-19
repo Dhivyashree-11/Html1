@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NBK Quick Wash</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+  background: #fff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar nav a {
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  margin: 30px 0 10px;
+}
+
+.tab {
+  padding: 12px 24px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background-color: #6c5ce7;
+  color: white;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-item img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive layout */
+@media (max-width: 1100px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+</style>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NBK Quick Wash</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    @media (max-width: 768px) {
+  .process-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .step {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .step img {
+    max-width: 100px;
+  }
+
+  .process-heading h2 {
+    font-size: 24px;
+  }
+}
+
+</style>
+<body>
+
+  <!-- Header -->
+   <header>
+    <div class="navbar">
+      <h3>NBK Quick wash</h3>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#" class="active">Our process</a>
+        <a href="#">Benefit</a>
+        <a href="#">About us</a>
+        <a href="#" >Contact us</a>
+      </nav>
+    </div>
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active">Blouse</button>
+    <button class="tab">Cloths</button>
+  </div>
+
+  
+  <div class="grid-container">
+  
+    <div class="grid-item"><img src="image/pt1blouse.png" alt="Item 1"></div>
+    <div class="grid-item"><img src="image/pt2Blanket.png" alt="Item 2"></div>
+    <div class="grid-item"><img src="image/pt9Cushion.png" alt="Item 3"></div>
+    <div class="grid-item"><img src="image/pt3Belt.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt4backbag.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt5betsheet.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt10CurtainPanel.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt11Dhoti.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt6bathrobe.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt7Cap.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt12Dupatta.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt8Carpet.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt13Dress.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt14Dari.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt15Frock.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt16Anarkali.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt17Gloves.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt18Hood.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt19hat.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt20jacket.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt21jeans.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt22kurta.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt23laundrybyweight.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt24lehenga.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt25muffler.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt26mat.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt27overcoat.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt28pajama.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt29purse.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt30pillow.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt31quilt.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt32shirt.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt3Belt.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt33sherwani.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt34sweater.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt35shorts.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt36saree.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt37stole.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt38salwar.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt39skirt.png" alt="Item 4"></div>
+    
+    <div class="grid-item"><img src="image/pt40shawl.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt41sandal.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt42shoes.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt43shirttrouser.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt44shirt5.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt45t-shirt.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt46trouser.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt47kurti.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt48trolley.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt49tie.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt50toy.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt51towel.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt52table-cloth.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt53umbrella.png" alt="Item 4"></div>
+    <div class="grid-item"><img src="image/pt54vest.png" alt="Item 4"></div>
+
+  </div>
+  <footer>
+    <div class="footer-content">
+       <div class="social-icons">
+        <img src="/image/2.png" width="100%">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

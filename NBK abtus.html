@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - NBK Quick Wash</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar nav a.active {
+  color: #a855f7;
+}
+
+/* Hero */
+.hero {
+  background: url('/image/Rectangle\ 4299.png') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Welcome */
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 30px;
+}
+
+.welcome .images img {
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 506;
+height: 418px;
+top: 500px;
+left: 148px;
+border-radius: 12px;
+
+}
+
+.welcome .text h4 {
+  color: #a855f7;
+}
+
+.welcome .text h2 {
+  margin: 10px 0;
+  font-size: 32px;
+}
+
+.welcome button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .about-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-images img {
+    width: 80px;
+    margin: 10px;
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .about-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+}
+
+
+/* Process */
+.process {
+  background-color: #2e004f;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.process h4{
+    color: gray;
+    width: 130;
+height: 25;
+top: 1060px;
+left: 655px;
+font-family: Plus Jakarta Sans;
+font-weight: 600px;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 5%;
+
+
+}
+.process h2{
+    width: 493;
+height: 53;
+top: 1101px;
+left: 474px;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 42px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.step {
+  background: white;
+  color: #2e004f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.step span {
+  background: #a855f7;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.machine-img {
+  height: 397px;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #F9EFFF;
+  padding: 60px 20px;
+  text-align: center;
+}
+.testimonials h1{
+    color: purple;
+    font-size: medium;
+    text-align: left;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonials h2 {
+  margin-top: 40px;
+   color: #170F49;
+margin-bottom: 40px;
+    text-align: left;
+     padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  
+}
+
+.card .name {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+</style>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">NBK Quick wash</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Our process</a>
+      <a href="#">Benefit</a>
+      <a href="#" class="active">About us</a>
+      <a href="#">Contact us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>About us</h1>
+      <img src="/image/Vector 1.png" alt="underline" />
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <div class="images">
+      <img src="/image/Group 1000001045.png" alt="">
+    </div>
+    <div class="text">
+      <h4>Welcome to the Dry Cleaning Company</h4>
+      <h2>Professional Laundry Services for Home and Office</h2><br>
+      <p>
+        Our home cleaning services are here to give you the peace of mind you deserve and the time you need to enjoy your life.
+      </p>
+      <button>Pick Up Now →</button>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process">
+    <h4>Our process</h4>
+    <h2>Follow A Few Easy Steps</h2>
+    <div class="steps-container">
+      <div class="steps">
+        <img src="/image/Group 1000001032.png"><br>
+        <img src="/image/Group 1000001033.png">
+       
+      </div>
+      <img src="/image/waching machine.png" alt="Washer" class="machine-img">
+      <div class="steps">
+        <img src="/image/Group 1000001031.png"><br>
+        <img src="/image/Group 1000001030.png">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h1>— TESTIMONIALS</h1>
+    <h2>Don't take our word for it</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="/image/Group 39217.png">
+        
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>NBK Quick Wash</h3>
+      <br>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Our process</a>
+        <a href="#">Benefit</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </nav>
+      <br>
+      <p>Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade bel när feras redorade i belogi. FAR paratyp i <br>muvåning, och pesask vyfisat. Viktiga poddradio har un mad och inde.</p>
+      <br>
+      <div class="socials">
+        <img src="/image/Group 2007.png">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
